@@ -1,0 +1,27 @@
+Version 1.1.8:
+- New added: CSS code in rtl.css
+- Add html code in <?php if ( is_rtl() ) { echo'dir="rtl"'; } ?>: content.php, content-single.php, post-grid.php, post-carousel.php, tab-titles.php, portfolio-carousel.php, team-carousel.php, testimonial-carousel.php
+- Add javascript code rtl: script.js, elementor.js
+rtl_slick()
+function rtl_slick(){
+    if ($('body').hasClass("rtl")) {
+       return true;
+    } else {
+       return false;
+    }
+}; 
+- New added: put the wp_body_open() function after the body tag
+- New added: Option link for title, option heading tags for Onum Heading 
+- New added: Option link to title, image for Team Carousel   
+- New added: Option for Related Projects: title, style, etc...
+- New added: Option for display breadcrumbs on single post
+- New added: Option select title html tag for some widget elements
+- Updated: Update .POT language file
+- Improved: Upload icon svg work fine in some widget elements
+Files Updated: single-ot_portfolio.php, customizer.php, single.php, team-carousel.php, heading.php, icon-box-grid.php, contact-info.php, process-box.php, icon-box.php, message-box.php, tab-titles.php, service-box.php, service-box-2.php, style.css.
+
+
+
+
+
+
